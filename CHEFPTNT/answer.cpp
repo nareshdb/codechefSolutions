@@ -9,13 +9,18 @@ int main() {
 
 	int t;
 
-	cin>>t;
+	scanf("%d", &t);
 
 	while(t --> 0) {
+
 		int N, M, X, K;
 		string s;
 
-		cin>>N>>M>>X>>K>>s;
+		scanf("%d %d %d %d", &N, &M, &X, &K);
+
+		cin>>s;
+
+		//cin>>N>>M>>X>>K>>s;
 
 		int evenCount = 0, oddCount = 0;
 
