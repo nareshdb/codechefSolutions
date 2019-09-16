@@ -39,3 +39,4 @@ for n in range(0, noOfTestCases):
 		addChildNode(nodes[rootIndex-1], nodes[childIndex-1])
 
 	print(removeCostlyNodesAndReturnSum(penaltyForNodeRemoval, nodes[0]))
+      
